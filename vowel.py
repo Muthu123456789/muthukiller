@@ -1,8 +1,8 @@
-a=['a','e','i','o','u']
-b=raw_input()
-if b in a:
+g=['a','e','i','o','u']
+s=raw_input()
+if s in g:
     print ("Vowel")
-elif(b.isalpha()):
+elif(s.isalpha()):
     print("Consonant")
 else:
         print("Invalid")
