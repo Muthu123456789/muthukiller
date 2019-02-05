@@ -1,3 +1,4 @@
-x=2
-y=3
-print(x**y)
+a=int(input())
+b=int(input())
+c=a**b
+print(c)
