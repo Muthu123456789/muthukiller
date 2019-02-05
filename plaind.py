@@ -2,6 +2,6 @@ string="malayalam"
 revstr=''.join(reversed(string))
 print(revstr)
 if list(string)==list(revstr):
-	print("palindrome")
+	print("yes")
 else:
-	print("not a palindrome")
+	print("no")
